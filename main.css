@@ -1,4 +1,19 @@
 body{
     background-color:rgb(198, 251, 225);
-    font-family:'Garamond'
+    font-family:'Garamond';
+}
+
+#newSection{
+    background-color:rgb(107, 208, 159);
+    padding: 10px;
+}
+
+#topSection{
+    background-color:rgb(107, 208, 159);
+    padding: 10px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
 }
