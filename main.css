@@ -1,19 +1,39 @@
+/* Background + font */
 body{
     background-color:rgb(198, 251, 225);
     font-family:'Garamond','Times New Roman';
 }
 
+/* Section divider (for all but top) */
 #newSection{
     background-color:rgb(107, 208, 159);
     padding: 10px;
 }
 
+/* The difference between this and the other divider is this uses center align*/
 #topSection{
     background-color:rgb(107, 208, 159);
     padding: 10px;
     text-align: center;
 }
 
+/* Used for all paragraph font size */
 p{
     font-size: 20px;
 }
+
+/* Used for the links at the top of the page */
+.links{
+    text-align: center;
+}
+
+/* Used for images */
+img{
+    width: 100%;
+}
+
+@media only screen and (max-width:720px)
+      {
+        img {display:none;}
+        
+      }
